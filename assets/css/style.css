@@ -50,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/* Sets properties for background image. */
 .hero {
     height: 800px;
     width: 100%;
@@ -68,13 +69,14 @@ p {
     margin-left: 25px;
 }
 
+/* Positioning and size of the main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-
+/* Positioning and size of the aside panel */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,27 +88,27 @@ p {
     background-color: #2589bd;
 }
 
-
-.benefit-lead,.benefit-brand,.benefit-cost {
+/* Sets the apearnce for text */
+.benefit-content{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-.benefit-lead h3,.benefit-brand h3,.benefit-cost h3 {
+/* Changes placement for header*/
+.benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit-lead img,.benefit-brand img,.benefit-cost img {
+/* Placement and max width for each image */
+.benefit-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-.search-engine-optimization,.online-reputation-management,.social-media-marketing {
+/* Sets style for sections of content */
+.content-discriptions {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -115,13 +117,13 @@ p {
     color: #ffffff;
 }
 
-
-.search-engine-optimization img,.online-reputation-management img,.social-media-marketing img {
+/* Set a max height */
+.content-discriptions img {
     max-height: 200px;
 }
 
-
-.search-engine-optimization h2,.online-reputation-management h2,.social-media-marketing h2 {
+/* Set custom style for header */
+.content-discriptions h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
